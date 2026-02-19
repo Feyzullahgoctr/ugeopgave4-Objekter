@@ -62,7 +62,9 @@ public class Opgave2Main {
         int textCount = findProductCount(products, text);
         if (textCount > 0) {
             System.out.println("\n===" + text + " Product information===");
-            findProduct(products,text);
+            findProduct(products, text);
+        } else {
+            System.out.println("Invalid Word");
         }
 
 

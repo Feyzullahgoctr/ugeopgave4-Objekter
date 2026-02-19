@@ -16,6 +16,7 @@ public class Student {
         if (studentID != null) {
             System.out.println("ID: " + studentID);
         }
+        System.out.println("----------------");
     }
 
     public String toString() {
